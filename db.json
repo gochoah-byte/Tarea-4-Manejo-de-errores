@@ -1,0 +1,100 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Empleado Demo 1",
+      "email": "empleado1@example.invalid",
+      "position": "Desarrollador",
+      "department": "Tecnología",
+      "salary": 7000,
+      "hireDate": "2022-03-15",
+      "status": "active",
+      "role": "employee",
+      "avatarUrl": "https://i.pravatar.cc/64?img=1",
+      "phone": "+502 0000-0001"
+    },
+    {
+      "id": 2,
+      "name": "Empleado Demo 2",
+      "email": "empleado2@example.invalid",
+      "position": "Gerente de Recursos Humanos",
+      "department": "Recursos Humanos",
+      "salary": 8000,
+      "hireDate": "2026-02-01",
+      "status": "inactive",
+      "role": "hr",
+      "phone": "",
+      "avatarUrl": "https://i.pravatar.cc/64?img=1"
+    },
+    {
+      "id": 3,
+      "name": "Empleado Demo 3",
+      "email": "empleado3@example.invalid",
+      "position": "Contador",
+      "department": "Finanzas",
+      "salary": 7500,
+      "hireDate": "2021-01-20",
+      "status": "active",
+      "role": "employee"
+    },
+    {
+      "id": 4,
+      "name": "Empleado Demo 4",
+      "email": "empleado4@example.invalid",
+      "position": "Administrador de Sistemas",
+      "department": "Tecnología",
+      "salary": 9000,
+      "hireDate": "2018-05-10",
+      "status": "active",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "name": "Empleado Demo 5",
+      "email": "empleado5@example.invalid",
+      "position": "Analista de Operaciones",
+      "department": "Operaciones",
+      "salary": 6800,
+      "hireDate": "2023-02-01",
+      "status": "inactive",
+      "role": "employee"
+    },
+    {
+      "id": 6,
+      "name": "Empleado Demo 6",
+      "email": "empleado6@example.invalid",
+      "position": "Ejecutivo de Ventas",
+      "department": "Ventas",
+      "salary": 7200,
+      "hireDate": "2022-11-14",
+      "status": "active",
+      "role": "employee"
+    },
+    {
+      "name": "Empleado Demo 7",
+      "email": "empleado7@example.invalid",
+      "position": "Gerente de RRHH",
+      "department": "Tecnología",
+      "salary": 5000,
+      "hireDate": "2027-03-04",
+      "role": "employee",
+      "status": "active",
+      "phone": "",
+      "avatarUrl": "",
+      "id": 10
+    },
+    {
+      "name": "Empleado Demo 8",
+      "email": "empleado8@example.invalid",
+      "position": "Asistente",
+      "department": "Tecnología",
+      "salary": 5500,
+      "hireDate": "2026-10-08",
+      "role": "employee",
+      "status": "active",
+      "phone": "",
+      "avatarUrl": "",
+      "id": 11
+    }
+  ]
+}
