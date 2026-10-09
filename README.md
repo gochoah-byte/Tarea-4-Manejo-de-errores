@@ -13,15 +13,15 @@ npm install
 npm run dev
 ```
 
-Para ejecutar el servidor de datos de prueba en otra terminal:
+En una segunda terminal, inicia la API local de empleados:
 
 ```sh
 npm run mock-api
 ```
 
-La autenticación utiliza la API g06. Puedes cambiar su URL base con `VITE_API_BASE_URL`; por defecto usa `https://api-g06-39462701205.us-central1.run.app`.
+El login utiliza la API g06 (`https://api-g06-39462701205.us-central1.run.app`). Puedes cambiar la URL base de autenticación con `VITE_API_BASE_URL`.
 
-El módulo de empleados todavía usa JSON Server local en `http://localhost:3001`. Esa integración no se cambia solo sustituyendo la URL: la API g06 usa rutas `/api/v1/employees`, paginación y un modelo de empleado distintos. Hay que adaptar esos campos y respuestas antes de conectar ese módulo.
+Los empleados, filtros, cambios y datos del dashboard usan JSON Server local en `http://localhost:3001`, con los registros de `db.json`. No se envían a la API g06.
 
 ## Comandos
 

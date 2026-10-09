@@ -2,10 +2,10 @@
 import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 import { notifyGlobalError } from '../utils/errorHandler';
-import { API_BASE_URL } from './apiConfig';
+import { AUTH_API_BASE_URL } from './apiConfig';
 
 export const authApiClient = axios.create({
-  baseURL: API_BASE_URL,
+  baseURL: AUTH_API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
