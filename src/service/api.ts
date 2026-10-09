@@ -2,7 +2,9 @@
 import axios from 'axios';
 import { notifyGlobalError } from '../utils/errorHandler';
 
-const BASE_URL = import.meta.env.VITE_EMPLOYEE_API_URL || 'http://localhost:3001';
+
+const BASE_URL =  import.meta.env.VITE_EMPLOYEE_API_URL ||   'https://mini-rrhh-api-wlxd.onrender.com';
+
 
 export const apiClient = axios.create({
   baseURL: BASE_URL,
