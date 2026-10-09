@@ -9,6 +9,7 @@ import EmployeeForm from '../components/EmployeeForm';
 import { useNavigate } from 'react-router-dom';
 import { useEmployees, useCreateEmployee, useUpdateEmployee, useDeleteEmployee } from '../hooks/useEmployees';
 import type { EmployeeFormData } from '../schemas/employeeSchema';
+import { extractErrorMessage } from '../utils/errorHandler';
 
 const formFieldClass = 'w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent';
 
@@ -228,7 +229,7 @@ function EmployeesPage() {
     </p>
 
     <p className="text-red-500 text-sm mt-1">
-      {(queryError as Error)?.message || 'Error desconocido'}
+      {extractErrorMessage(queryError)}
     </p>
 
     <button
